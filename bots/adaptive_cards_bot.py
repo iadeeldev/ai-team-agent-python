@@ -36,7 +36,7 @@ class AdaptiveCardsBot(ActivityHandler):
         :param question: The user's question from the bot conversation.
         :return: The response from the external API in JSON format.
         """
-        api_url = "https://19cc-202-166-170-107.ngrok-free.app/ask_question"
+        api_url = "https://ba34-202-166-170-107.ngrok-free.app/ask_question"
         payload = {"question": question}  # JSON payload to be sent to the API
 
         try:
